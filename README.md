@@ -4,6 +4,8 @@
 
 Для того, чтобы запустить проект локально, нужно выполнить скрипт `npm run start` из корня проекта.
 
+Ссылка на GitHub Pages проекта: (Valantis)[https://vkharlakov.github.io/valantis-jc-store/]
+
 ## Использованные инструменты
 
 - Проект написан на React
@@ -23,6 +25,8 @@
 This project is an implementation of the test task for Valantis using React.
 
 To run the project locally, you need to execute the `npm run start` script from the project root.
+
+Link to a project on GitHub Pages: (Valantis)[https://vkharlakov.github.io/valantis-jc-store/]
 
 ## Tools Used
 
