@@ -51,7 +51,11 @@ export default function ProductList() {
 
   return (
     <div className="flex flex-col py-6 md:py-12 relative" ref={ref}>
-      <p className="text-sm lg:text-base 2xl:text-xl mb-4">{`Найдено ${ids.length} товаров`}</p>
+      <p className="text-sm lg:text-base 2xl:text-xl mb-4">
+        {isLoading
+          ? "Идет загрузка. Пожалуйста, подождите..."
+          : `Найдено ${ids.length} товаров`}
+      </p>
       {isLoading && (
         <span className="bg-[white] opacity-60 absolute inset-0 z-20" />
       )}
