@@ -1,46 +1,37 @@
-# Getting Started with Create React App
+# Тестовое задание для Valantis
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Проект является реализацией тестового задания Valantis на React.
 
-## Available Scripts
+Для того, чтобы запустить проект локально, нужно выполнить скрипт `npm run start` из корня проекта.
 
-In the project directory, you can run:
+## Использованные инструменты
 
-### `npm start`
+- Проект написан на React
+- TypeScript
+- TailwindCss
+- В качестве стейт-менеджера использовался Zustand
+- Некоторые компоненты были взяты из shadcn и radix
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Реализация
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Сайт написан с учетом разных размеров экрана, интерфейс адаптивный. Для API-запросов используется метод fetch, но если бы было больше времени, то я бы добавил **React Query** в пару с **Zustand** для более лаконичной и понятной обработки запросов и результатов. За неимением возможности, повторные API-запросы пришлось прописывать вручную.
 
-### `npm test`
+Пользовательское соглашение **обязательно** к ознакомлению.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Test task for Valantis
 
-### `npm run build`
+This project is an implementation of the test task for Valantis using React.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run the project locally, you need to execute the `npm run start` script from the project root.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tools Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- The project is written in React
+- TypeScript
+- TailwindCss
+- Zustand was used as the state manager
+- Some components were taken from shadcn and radix
 
-### `npm run eject`
+## Implementation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+The website is designed to be responsive across different screen sizes. Fetch method is used for API requests, however, if there was more time, I would have added **React Query** paired with **Zustand** for more concise and understandable handling of requests and results. Due to the lack of this possibility, I had to manually handle repeated API requests.
