@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/valantis-jc-store/static/css/main.ba1f5348.css",
-    "main.js": "/valantis-jc-store/static/js/main.4b3098a6.js",
+    "main.js": "/valantis-jc-store/static/js/main.d4dc77a5.js",
     "static/media/braclet-1.webp": "/valantis-jc-store/static/media/braclet-1.cfac39fca19cf855f483.webp",
     "static/media/jc-2.webp": "/valantis-jc-store/static/media/jc-2.55165fd8f24aba18b451.webp",
     "static/media/jc-1.webp": "/valantis-jc-store/static/media/jc-1.862b066058af099bf806.webp",
@@ -12,10 +12,10 @@
     "static/media/logo-icon.svg": "/valantis-jc-store/static/media/logo-icon.900bc21a1ffc3ae4d8ba6987c96f8c83.svg",
     "index.html": "/valantis-jc-store/index.html",
     "main.ba1f5348.css.map": "/valantis-jc-store/static/css/main.ba1f5348.css.map",
-    "main.4b3098a6.js.map": "/valantis-jc-store/static/js/main.4b3098a6.js.map"
+    "main.d4dc77a5.js.map": "/valantis-jc-store/static/js/main.d4dc77a5.js.map"
   },
   "entrypoints": [
     "static/css/main.ba1f5348.css",
-    "static/js/main.4b3098a6.js"
+    "static/js/main.d4dc77a5.js"
   ]
 }
