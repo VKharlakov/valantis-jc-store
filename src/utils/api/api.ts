@@ -1,7 +1,8 @@
 import md5 from "md5";
 import type { ProductT } from "../../types/types";
 
-const baseUrl = "http://api.valantis.store:40000/";
+// const baseUrl = "http://api.valantis.store:40000/";
+const baseUrl = "https://api.valantis.store:41000/";
 
 // Функция составления актуальной даты
 const currentDate = () => {
